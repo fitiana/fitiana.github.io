@@ -110,7 +110,10 @@
             watchSlidesProgress: true,
             loop: true,
             spaceBetween: 5,
-            autoplay: true,
+            autoplay: {
+                delay: 1000,
+                disableOnInteraction: false,
+            },
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
