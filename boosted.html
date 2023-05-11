@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CV - test</title>
+    <link rel="shortcut icon" href="assets/img/logo/ficon.png" type="image/x-icon">
+    <meta name="author" content="Templines">
+    <link href="assets/css/boosted.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/swiper-bundle.min.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+
+    <div class="wraper">
+        <!-- ...:::Start Hero Slider Section:::... -->
+        <div class="hero-section section-gap-top-25">
+            <div class="container">
+                <!-- Start Hero Area -->
+                <div class="hero-area hero-area--style-1 hero-slider-active position-relative">
+                    <!-- Slider main container -->
+                    <div class="swiper" data-swiper-autoplay="2000">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="hero-singel-slide ">
+                                    <div class="hero-bg">
+                                        <img width="388" height="160" class="img-full" src="assets/images/hero/bg/hero-bg-1.jpg" alt="image">
+                                    </div>
+                                    <div class="inner-wrapper">
+                                        <div class="content">
+                                            <p class="title-tag">Summer</p>
+                                            <h1 class="title">Fashion</h1>
+                                            <h2 class="sub-title">SALE</h2>
+                                            <h3 class="sub-title">UP to <span>70% </span> off</h3>
+                                        </div>
+                                        <div class="product-img">
+                                            <img width="149" height="127" class="img-fluid" class="img-fluid" src="assets/images/hero/product/product-1.png" alt="image">
+                                            <div class="shape shape-1"><img width="83" height="83" class="img-fluid" src="assets/images/hero/shape/shape-dotted.png" alt="image"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="hero-singel-slide">
+                                    <div class="hero-bg">
+                                        <img width="388" height="160" class="img-full" src="assets/images/hero/bg/hero-bg-1.jpg" alt="image">
+                                    </div>
+                                    <div class="inner-wrapper">
+                                        <div class="content">
+                                            <p class="title-tag">Summer</p>
+                                            <h1 class="title">Fashion</h1>
+                                            <h2 class="sub-title">SALE</h2>
+                                            <h3 class="sub-title">UP to <span>70% </span> off</h3>
+                                        </div>
+                                        <div class="product-img">
+                                            <img width="127" height="98" class="img-fluid" class="img-fluid" src="assets/images/hero/product/product-2.png" alt="image">
+                                            <div class="shape shape-1"><img width="83" height="83" class="img-fluid" src="assets/images/hero/shape/shape-dotted.png" alt="image"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="hero-singel-slide">
+                                    <div class="hero-bg">
+                                        <img width="388" height="160" class="img-full" src="assets/images/hero/bg/hero-bg-1.jpg" alt="image">
+                                    </div>
+                                    <div class="inner-wrapper">
+                                        <div class="content">
+                                            <p class="title-tag">Summer</p>
+                                            <h1 class="title">Fashion</h1>
+                                            <h2 class="sub-title">SALE</h2>
+                                            <h3 class="sub-title">UP to <span>70% </span> off</h3>
+                                        </div>
+                                        <div class="product-img">
+                                            <img width="126" height="98" class="img-fluid" class="img-fluid" src="assets/images/hero/product/product-3.png" alt="image">
+                                            <div class="shape shape-1"><img width="83" height="83" class="img-fluid" src="assets/images/hero/shape/shape-dotted.png" alt="image"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <!-- End Hero Area -->
+            </div>
+        </div>
+        <!-- ...:::End Hero Slider Section:::... -->
+
+
+
+    </div>
+
+    
+
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script>
+        /*************************
+         *   Hero Slider Active
+         **************************/
+        var heroSlider = new Swiper(".hero-slider-active .swiper", {
+            slidesPerView: 1,
+            speed: 1500,
+            watchSlidesProgress: true,
+            loop: true,
+            spaceBetween: 5,
+            autoplay: {
+                delay: 1000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+    </script>
+</body>
+
+</html>
