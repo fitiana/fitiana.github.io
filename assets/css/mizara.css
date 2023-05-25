@@ -861,7 +861,7 @@ font-style: normal;
 .single-b {
     border: 1px solid #707070;
 }
-.page-title-orange {
+.page-title-orange, .color-orange {
     color: #f16e00;
 }
 .header-b {
@@ -889,6 +889,9 @@ font-style: normal;
 .b-button {
     margin-left: 20px;
     width: 240px;
+}
+.b-button p {
+    margin-bottom: 10px;
 }
 .button-block {
     display: inline-block;
