@@ -900,7 +900,7 @@ font-style: normal;
     text-decoration: none;
     font-family: 'helvetica_neue75_bold';
     font-size: 18px;
-    width: 240px;
+    width: 100%;
     background-color: #FF7900;
     padding: 9px 20px;
     height: 46px;
@@ -908,6 +908,15 @@ font-style: normal;
 .button-block:hover {
     color: #ffffff;
 }
+
+@media only screen and (max-width: 767px) {
+    .b-button {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+/***end mizara ***/
 @media (max-width: 1200px) {
     .home-slider .swiper-button-next, .home-slider .swiper-button-prev {
         display: none;
@@ -930,6 +939,10 @@ font-style: normal;
     header .user-infos {
         max-width: 320px;
     }
+}
+
+@media only screen and (max-width: 991px) {
+  
 }
 
 @media (max-width: 960px) {
@@ -969,7 +982,7 @@ font-style: normal;
 
 }
 
-@media (max-width: 767px){
+@media only screen and (max-width: 767px) {
     
     .navbar_header .navbar-nav .nav_item- {
         width: 33.33%;
@@ -988,6 +1001,7 @@ font-style: normal;
     .text-sm {
         font-size: 13px;
     }
+    
     
 }
 
