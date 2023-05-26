@@ -866,7 +866,7 @@ font-style: normal;
 }
 .header-b {
     background-color: #000000;
-    padding: 15px;
+    padding: 20px 25px;
 }
 .header-b img {
     display: block;
@@ -910,6 +910,10 @@ font-style: normal;
 }
 
 @media only screen and (max-width: 767px) {
+    
+    .header-b img {
+        width: 140px;
+    }
     .b-button {
         margin-left: 0;
         width: 100%;
