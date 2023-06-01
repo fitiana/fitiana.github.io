@@ -1,0 +1,386 @@
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('/font/Helvetica_Neue/HelveticaNeueLTArabic-Bold.ttf') format('TTF');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('/font/Helvetica_Neue/HelveticaNeueLTArabic-Light.ttf') format('TTF');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('/font/Helvetica_Neue/HelveticaNeueLTArabic-Roman.ttf') format('TTF');
+    font-weight: semi-bold;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    letter-spacing: -0.1px;
+}
+
+.color-primary{
+    color: #f16e00 !important;
+}
+
+/* h1{
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+
+h2{
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    letter-spacing: -1.6px;
+}
+
+
+h3{
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+h4{
+    font-size: 34px;
+    line-height: 34px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+h5{
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: bold;
+    letter-spacing: -0.8px;
+}
+
+h6{
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+} */
+
+h1{
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+h2{
+    font-size: 34px;
+    line-height: 34px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+h3{
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: bold;
+    letter-spacing: -0.8px;
+}
+
+h4, h5{
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+}
+
+/* p{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: normal;
+    letter-spacing: -0.2px;
+} */
+
+
+@media (min-width: 576px) {
+    h1{
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: bold;
+        letter-spacing: -1px;
+    }
+
+    h2{
+        font-size: 34px;
+        line-height: 34px;
+        font-weight: bold;
+        letter-spacing: -1px;
+    }
+
+    h3{
+        font-size: 30px;
+        line-height: 32px;
+        font-weight: bold;
+        letter-spacing: -0.8px;
+    }
+
+    h4, h5{
+        font-size: 24px;
+        line-height: 26px;
+        font-weight: bold;
+        letter-spacing: -0.5px;
+    }
+  }
+
+@media (min-width: 768px) {
+    h1{
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: bold;
+        letter-spacing: -1px;
+    }
+
+    h2{
+        font-size: 34px;
+        line-height: 34px;
+        font-weight: bold;
+        letter-spacing: -1px;
+    }
+
+    h3{
+        font-size: 30px;
+        line-height: 32px;
+        font-weight: bold;
+        letter-spacing: -0.8px;
+    }
+
+    h4, h5{
+        font-size: 24px;
+        line-height: 26px;
+        font-weight: bold;
+        letter-spacing: -0.5px;
+    }
+  }
+
+@media (min-width: 992px) {
+    h1{
+        font-size: 50px;
+        line-height: 50px;
+        font-weight: bold;
+        letter-spacing: -1.6px;
+    }
+
+
+    h2{
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: bold;
+        letter-spacing: -1px;
+    }
+
+    h3{
+        font-size: 34px;
+        line-height: 34px;
+        font-weight: bold;
+        letter-spacing: -1px;
+    }
+
+    h4{
+        font-size: 30px;
+        line-height: 32px;
+        font-weight: bold;
+        letter-spacing: -0.8px;
+    }
+
+    h5{
+        font-size: 24px;
+        line-height: 26px;
+        font-weight: bold;
+        letter-spacing: -0.5px;
+    }
+  }
+
+@media (min-width: 1200px) {
+    h1{
+        font-size: 60px;
+        line-height: 60px;
+        font-weight: bold;
+        letter-spacing: -2px;
+    }
+
+    h2{
+        font-size: 50px;
+        line-height: 50px;
+        font-weight: bold;
+        letter-spacing: -1.6px;
+    }
+
+
+    h3{
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: bold;
+        letter-spacing: -1px;
+    }
+
+    h4{
+        font-size: 34px;
+        line-height: 34px;
+        font-weight: bold;
+        letter-spacing: -1px;
+    }
+
+    h5{
+        font-size: 30px;
+        line-height: 32px;
+        font-weight: bold;
+        letter-spacing: -0.8px;
+    }
+
+    h6{
+        font-size: 24px;
+        line-height: 26px;
+        font-weight: bold;
+        letter-spacing: -0.5px;
+    }
+
+    /* p{
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: normal;
+        letter-spacing: -0.2px;
+    } */
+}
+
+.btn.btn-md{
+    min-height: 40px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.btn{
+    border-radius: 0;
+    padding: 12px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    letter-spacing: -0.2px;
+}
+
+.btn.btn-dark{
+    background-color: #000;
+}
+
+.btn.btn-default{
+    border: solid 2px #000;
+    color: #000;
+}
+
+.btn.btn-orange{
+    background-color: #f16e00;
+    color: #000;
+}
+
+.btn.btn-light{
+    background-color: #FFF;
+    border: #000 solid 2px;
+}
+
+.btn.btn-dark:active{
+    background-color: #f16e00;
+}
+
+@media (min-width: 576px) {
+
+  }
+
+@media (min-width: 768px) {
+    .btn{
+        border-radius: 0;
+        padding: 15px;
+        font-size: 20px;
+        line-height: 22px;
+        font-weight: bold;
+        letter-spacing: -0.4px;
+    }
+  }
+
+@media (min-width: 992px) {
+
+  }
+
+@media (min-width: 1200px) {
+
+}
+
+.text-sm{
+    font-size: 14px !important;
+    line-height: 16px !important;
+    font-weight: bold;
+    letter-spacing: -0.1px !important;
+}
+
+header{
+    background-color: #000;
+    color: #FFF;
+    font-family: "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+    font-weight: bold;
+}
+
+header .logo{
+    margin: 0;
+    padding: 0;
+}
+
+header .logo .small-logo, header .logo .big-logo{
+    width: 50px;
+    height: auto;
+}
+
+header .user-infos{
+    max-width: 80%;
+    display: block;
+    text-align: right;
+}
+
+header .user-infos p{
+    margin-bottom: 0;
+}
+
+header .user-infos .user-fullname{
+    color: #f16e00;
+}
+
+.mode-switcher{
+    display: inline-block;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border: #f16e00 solid 2px;
+    padding: 0;
+    color: #000;
+}
+
+.mode-switcher .option{
+    display: inline-block;
+    width: 35px;
+    padding: 5px;
+    text-align: center;
+    background-color: #FFF;
+}
+
+.mode-switcher .option.active{
+    background-color: #f16e00;
+    color: #FFF;
+}

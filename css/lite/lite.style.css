@@ -1,0 +1,83 @@
+body{
+    line-height: 1.5;
+}
+
+.body-container .page-header{
+    border-bottom: black solid 1px;
+}
+
+.page-header-bkd-img{
+    background: url('../../img/headers/bec3-1200px.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 125px;
+}
+.page-header-bkd-img #page-title h1{
+    border: solid 1px black;
+}
+
+.page-header-bkd-img .container-lg{
+    min-height: 100%;
+}
+
+.page-header-bkd-img img.header-bkd{
+    width: 100%;
+    height: auto;
+}
+
+.page-title{
+    text-align: center;
+}
+
+.page-content section h3, .page-content h5{
+    color: #f16e00;
+}
+
+fieldset{
+    border: rgb(213, 213, 213) dashed 2px;
+}
+
+fieldset legend{
+    width: auto;
+    min-height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f16e00;
+    padding: 0 7px;
+}
+
+fieldset.bundle{
+    border: #000 solid 1px;
+}
+
+fieldset.bundle legend{
+    /* background-color: #000; */
+    /* color: #FFF; */
+    /* display: inline-block; */
+    color: #000;
+    border: #000 solid 2px;
+    min-height: 34px;
+}
+
+fieldset ul.bundle-list > li{
+    margin: 20px 0;
+}
+
+fieldset ul.bundle-list > li:first-child{
+    margin-top: 0;
+}
+
+footer{
+    min-height: 50px;
+}
+
+.icon-svg{
+    filter: invert(99%) sepia(50%) saturate(497%) hue-rotate(160deg) brightness(121%) contrast(100%);
+}
+
+.image-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}

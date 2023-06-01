@@ -1,0 +1,56 @@
+.dialog-success, .dialog-failed{
+    border: #ababab solid 1px;
+    background: #f9f9f9;
+    position: relative;
+}
+
+.dialog-success .dialog-icon, .dialog-failed .dialog-icon{
+    position: absolute;
+    top: -20px;
+    right: -18px;
+    font-size: 40px;
+    background: #fff;
+     background: #fff;
+    border-radius: 100%;
+}
+
+.dialog-success .dialog-icon{
+    color: #28a745;
+}
+
+.dialog-failed .dialog-icon{
+    color: #dc3545;
+}
+
+
+.disabled-button{
+  pointer-events: none;
+}
+
+.btn-same-size{
+  height:100%;
+  width:100%;
+}
+
+.center-block {
+  margin: auto;
+  display: block;
+}
+
+.bg-orange {
+    background-color: #f16e00 !important;
+}
+
+.icon-position{
+    position: absolute;
+    top: -40px;
+    right: -30px;
+    font-size: 40px;
+}
+
+
+
+
+
+
+

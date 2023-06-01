@@ -1,0 +1,225 @@
+/******************
+* Menu with Icons
+*******************/
+.nav-with-icons .btn{
+    padding: 6px;
+}
+
+@media (min-width: 768px) {
+    .nav-with-icons .btn{
+        padding: 6px;
+    }
+}
+
+.nav-with-icons ul li a{
+    text-align: center;
+}
+
+.nav-with-icons ul li a .icon{
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .nav-with-icons ul li a .icon{
+        float: none;
+    }
+}
+
+.nav-with-icons ul li a .icon img{
+    max-width: 40px;
+    min-height: 35px;
+    padding: 0 0 0 0;
+}
+
+@media (min-width: 576px) {
+    .nav-with-icons ul li a .icon img{
+        padding: 0 10px 0 0;
+    }
+}
+
+
+.nav-with-icons ul li a .name{
+    /* float: left; */
+    display: inline-block;
+    padding: 7px 0 7px 7px;
+}
+
+.nav-with-icons ul li a{
+    text-align: center;
+    padding: 5px 10px;
+}
+/******************************************/
+
+
+/******************
+* Menu with Image
+*******************/
+.nav-with-image{
+
+}
+
+.nav-with-image a img{
+    width: 100%;
+}
+
+.nav-with-image a .text{
+    display: inline-block;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    font-family: 'HelveticaNeueLTW07-75Bold';
+    font-weight: bold;
+}
+/******************************************/
+
+
+/*
+* form
+*/
+form .input-label{
+    background: #f16e00;
+    color: #fff;
+}
+
+.form-control{
+    border: solid 1px #000;
+}
+
+.form-control.is-valid, .was-validated .form-control:valid{
+    border-color: #f16e00;
+    background-image: none;
+}
+
+.form-control.is-valid:focus, .was-validated .form-control:valid:focus{
+    border-color: #f16e00;
+    box-shadow: 0 0 0 0.2rem rgb(241 110 0 / 25%);
+}
+
+/******************************************/
+body{
+    line-height: 1.5;
+}
+
+.separator{
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+}
+
+.separator.grey{
+    background-color: #EEEEEE;
+}
+
+/******************
+* Page Header
+*******************/
+.page-header {
+    border-bottom: #000 solid 2px;
+}
+
+.sub-title{
+    min-height: 45px;
+    border-bottom: #EEEEEE solid 1px;
+}
+
+#page-title h1{
+    display: inline-block;
+    border: #000 solid 2px;
+    border-bottom: #fff solid 2px;
+    margin: 0 auto -2px auto;
+}
+
+.page-header.header-bkd-img{
+    min-height: 125px;
+    border-bottom: none;
+}
+
+@media (min-width: 576px) {
+    .page-header.header-bkd-img{
+        height: 150px;
+    }
+}
+
+.page-header.header-bkd-img{
+    background: url('../../img/headers/bec3-1200px.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 125px;
+}
+.page-header-bkd-img #page-title h1{
+    border: solid 1px black;
+}
+
+.page-header-bkd-img .container-lg{
+    min-height: 100%;
+}
+
+.page-header-bkd-img img.header-bkd{
+    width: 100%;
+    height: auto;
+}
+
+#page-refill .page-header{
+    background: url('../../img/headers/bec3-1200px.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: none;
+}
+
+#page-purchase .page-header{
+    background: url('../../img/headers/bec4-1200px.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: none;
+}
+#page-infoconso .page-header{
+    background: url('../../img/headers/info-1200px.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: none;
+}
+
+
+@media (max-width: 992px) {
+    
+    #page-purchase .page-header{
+        background: url('../../img/headers/bec4-992px.jpg') no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    
+}
+@media (max-width: 767px) {
+    #page-refill .page-header{
+        background: url('../../img/headers/bec3-576px.jpg') no-repeat;
+        background-size: cover;
+
+    }
+
+    #page-purchase .page-header{
+        background: url('../../img/headers/bec4-576px.jpg') no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    #page-infoconso .page-header{
+        background: url('../../img/headers/info-576px.jpg') no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+}
+
+.icon-svg{
+    filter: invert(99%) sepia(50%) saturate(497%) hue-rotate(160deg) brightness(121%) contrast(100%);
+}
+
+.image-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+
+
+

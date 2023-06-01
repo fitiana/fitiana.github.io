@@ -1,0 +1,386 @@
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('/font/Helvetica_Neue/HelveticaNeueLTArabic-Bold.ttf') format('TTF');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('/font/Helvetica_Neue/HelveticaNeueLTArabic-Light.ttf') format('TTF');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('/font/Helvetica_Neue/HelveticaNeueLTArabic-Roman.ttf') format('TTF');
+    font-weight: semi-bold;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    letter-spacing: -0.1px;
+}
+
+body.theme-black{
+    background-color: #000;
+    color: #FFF;
+}
+
+body.theme-white{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.color-primary, .color-orange{
+    color: #f16e00 !important;
+}
+
+.color-grey{
+    color: #cccccc;
+}
+
+.color-white{
+    color: #ffffff;
+}
+
+.bkd-gradient-white{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(240,240,240,0) 100%);
+}
+
+
+h1{
+    font-size: 25px;
+    line-height: 32px;
+    font-weight: bold;
+    letter-spacing: -0.8px;
+}
+
+h2{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+}
+
+h3, h4, h5{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+}
+
+/* p{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: normal;
+    letter-spacing: -0.2px;
+} */
+
+
+@media (min-width: 576px) {
+    h1{
+        font-size: 25px;
+        line-height: 32px;
+        font-weight: bold;
+        letter-spacing: -0.8px;
+    }
+
+    h2{
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: bold;
+        letter-spacing: -0.5px;
+    }
+
+    h3, h4, h5{
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: bold;
+        letter-spacing: -0.5px;
+    }
+
+    /* h1{
+        font-size: 34px;
+        line-height: 34px;
+        font-weight: bold;
+        letter-spacing: -1px;
+    }
+
+    h2{
+        font-size: 30px;
+        line-height: 32px;
+        font-weight: bold;
+        letter-spacing: -0.8px;
+    }
+
+    h3, h4, h5{
+        font-size: 24px;
+        line-height: 26px;
+        font-weight: bold;
+        letter-spacing: -0.5px;
+    } */
+  }
+
+@media (min-width: 768px) {
+    /* h1{
+        font-size: 34px;
+        line-height: 34px;
+        font-weight: bold;
+        letter-spacing: -1px;
+    }
+
+    h2{
+        font-size: 30px;
+        line-height: 32px;
+        font-weight: bold;
+        letter-spacing: -0.8px;
+    }
+
+    h3, h4, h5{
+        font-size: 24px;
+        line-height: 26px;
+        font-weight: bold;
+        letter-spacing: -0.5px;
+    } */
+  }
+
+@media (min-width: 992px) {
+    /* h1{
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: bold;
+        letter-spacing: -1px;
+    }
+
+
+    h2{
+        font-size: 34px;
+        line-height: 34px;
+        font-weight: bold;
+        letter-spacing: -1px;
+    }
+
+    h3{
+        font-size: 30px;
+        line-height: 32px;
+        font-weight: bold;
+        letter-spacing: -0.8px;
+    }
+
+    h4, h5{
+        font-size: 24px;
+        line-height: 26px;
+        font-weight: bold;
+        letter-spacing: -0.5px;
+    } */
+}
+
+@media (min-width: 1200px) {
+    /* h1{
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: bold;
+        letter-spacing: -1px;
+    }
+
+    h2{
+        font-size: 34px;
+        line-height: 34px;
+        font-weight: bold;
+        letter-spacing: -1px;
+    }
+
+
+    h3{
+        font-size: 30px;
+        line-height: 32px;
+        font-weight: bold;
+        letter-spacing: -0.8px;
+    }
+
+    h4, h5{
+        font-size: 24px;
+        line-height: 26px;
+        font-weight: bold;
+        letter-spacing: -0.5px;
+    } */
+
+    /* p{
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: normal;
+        letter-spacing: -0.2px;
+    } */
+}
+
+.no-radius{
+    border-radius: 0 !important;
+}
+
+.underline-orange{
+    display: inline-block;
+    border-bottom: #f16e00 solid 4px;
+}
+
+.btn.btn-md{
+    min-height: 40px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.btn{
+    border-radius: 0;
+    padding: 12px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    letter-spacing: -0.2px;
+}
+
+.btn.btn-dark{
+    background-color: #000;
+}
+
+.btn.btn-orange{
+    background-color: #f16e00;
+    color: #000;
+}
+
+.btn.btn-light{
+    background-color: rgba(0, 0, 0, 0);
+    border: #000 solid 2px;
+}
+
+.btn.btn-dark:active{
+    background-color: #f16e00;
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+    .btn{
+        border-radius: 0;
+        padding: 15px;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: bold;
+        letter-spacing: -0.4px;
+    }
+  }
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+.text-sm{
+    font-size: 14px !important;
+    line-height: 16px !important;
+    font-weight: bold;
+    letter-spacing: -0.1px !important;
+}
+
+header{
+    background-color: #000;
+    color: #FFF;
+    font-family: "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+    font-weight: bold;
+}
+
+header .logo{
+    margin: 0;
+    padding: 0;
+}
+
+header .logo .small-logo, header .logo .big-logo{
+    width: 50px;
+    height: auto;
+}
+
+header .user-infos{
+    max-width: 80%;
+    display: block;
+    text-align: right;
+}
+
+header .user-infos p{
+    margin-bottom: 0;
+}
+
+header .user-infos .user-fullname{
+    color: #f16e00;
+}
+
+footer{
+    min-height: 50px;
+}
+
+.bottom-nav{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.mode-switcher{
+    display: inline-block;
+    float: right;
+    border: #f16e00 solid 2px;
+    padding: 0;
+    color: #000;
+}
+
+.theme-white .mode-switcher{
+    color: #f16e00;
+}
+
+.mode-switcher .option{
+    display: inline-block;
+    width: 35px;
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+}
+
+.mode-switcher .option.active{
+    background-color: #f16e00;
+}
+
+.bottom-nav .nav{
+    color: #000;
+    border: #000 solid 2px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding: 1px 0 0 7px;
+}
+
+.dialog-success{
+    border: #ababab solid 1px;
+    background: #f9f9f9;
+}
+
+.dialog-success .dialog-icon{
+    position: absolute;
+    top: -20px;
+    right: -5px;
+    font-size: 40px;
+    background: #fff;
+    color: #28a745;
+}
+

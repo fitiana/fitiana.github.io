@@ -1,0 +1,47 @@
+.bundle-item{
+    border: solid 1px #000;
+}
+
+.bundle-item .title{
+    border-bottom: solid 1px #EEEEEE;
+}
+
+.bundle-item .description{
+    font-weight: 600;
+}
+
+.bundle-item .price{
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+}
+
+.bundle-item_lite {
+    padding-bottom: 90px;
+}
+.bundle-item .bundle-bottom {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    
+}
+.dialog-success, .dialog-failed{
+    border: #ababab solid 1px;
+    background: #f9f9f9;
+}
+
+.dialog-success .dialog-icon, .dialog-failed .dialog-icon{
+    position: absolute;
+    top: -20px;
+    right: -18px;
+    font-size: 40px;
+    background: #fff;
+}
+
+.dialog-success .dialog-icon{
+    color: #28a745;
+}
+
+.dialog-failed .dialog-icon{
+    color: #dc3545;
+}

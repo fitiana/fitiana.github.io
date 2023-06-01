@@ -1,0 +1,50 @@
+
+.body-container .page-header{
+    border-bottom: black solid 1px;
+}
+
+.page-title{
+    text-align: center;
+}
+
+.page-content section h3, .page-content h5{
+    color: #f16e00;
+}
+
+fieldset{
+    border: rgb(213, 213, 213) dashed 2px;
+}
+
+fieldset legend{
+    width: auto;
+    min-height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f16e00;
+    padding: 0 7px;
+}
+
+fieldset.bundle{
+    border: #000 solid 1px;
+}
+
+fieldset.bundle legend{
+    /* background-color: #000; */
+    /* color: #FFF; */
+    /* display: inline-block; */
+    color: #000;
+    border: #000 solid 2px;
+    min-height: 34px;
+}
+
+fieldset ul.bundle-list > li{
+    margin: 20px 0;
+}
+
+fieldset ul.bundle-list > li:first-child{
+    margin-top: 0;
+}
+
+footer{
+    min-height: 50px;
+}
