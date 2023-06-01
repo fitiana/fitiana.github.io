@@ -904,6 +904,7 @@ font-style: normal;
     background-color: #FF7900;
     padding: 9px 20px;
     height: 46px;
+    transition: all 0.3s;
 }
 .button-block:hover {
     color: #ffffff;
