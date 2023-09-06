@@ -29,6 +29,7 @@ body.theme-white{
 
 .color-primary, .color-orange{
     color: #f16e00 !important;
+    width: 15px;
 }
 
 .color-grey{
