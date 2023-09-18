@@ -1,9 +1,115 @@
 /******************
-* purchase
+* AchatForfait
+
 *******************/
+.offre-items .offre-item {
+    background-color: #000;
+    color: #fff;
+    font-family: 'helvetica_neue75_bold';
+    font-size: 16px;
+    min-height: 68px;
+    border-radius: 4px;
+    text-decoration: none;
+    -webkit-transition: .15s;
+  -o-transition: .15s;
+  transition: .15s;
+}
+
+.offre-items .offre-item:hover {
+    background-color: #f16e00;
+   
+}
+.offre-item-container {
+    padding: 5px 10px;
+}
+
+.purchase-menu-item a {
+    text-decoration: none;
+}
 
 
+.breadcrumb-nav {
+    padding-left: 0;
+}
+.breadcrumb-nav li {
+    list-style-type: none;
+}
+.breadcrumb-nav li::marker {
+    display: none;
+}
+.breadcrumb-nav li a, .breadcrumb-nav li span {
+   text-decoration: none;
+   font-size: 18px;
+}
 
+.offre-box .offre-link {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 25px;
+}
 
+.offre-header {
+    background-color: #000;
+    padding: 20px 15px;
+    margin-bottom: 2px;
+    
+}
+.offre-title {
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+.offre-content {
+    border: 2px solid #ccc;
+    transition: 0.3s all;
+}
 
+.offre-link:hover .offre-content {
+    border-color: #f16e00
+}
 
+.offre-content ul li {
+    width: 28px;
+    height: 32px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+}
+
+.offre-content ul li img {
+    width: 22px;
+    display: block;
+}
+.price-offre {
+    color: #ffffff;
+    line-height: 1;
+    font-family: 'helvetica_neue75_bold';
+}
+.price-offre .main-price {
+    font-size: 34px;
+    font-family: 'helvetica_neue75_bold';
+    padding-top: 6px;
+    padding-right: 3px;
+}
+.price-details {
+    line-height: 1;
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 767px) {
+   .breadcrumb-nav li a, .breadcrumb-nav li span {
+  
+        font-size: 15px;
+    } 
+    
+    .offre-title {
+        font-size: 16px;
+    }
+    
+    .price-offre .main-price {
+        font-size: 28px;
+    }
+    
+    .price-details {
+        font-size: 11px;
+    }
+}
