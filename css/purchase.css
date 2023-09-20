@@ -55,8 +55,9 @@
     
 }
 .offre-title {
-    font-size: 21px;
-    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 8px;
 }
 .offre-content {
     border: 2px solid #ccc;
@@ -85,14 +86,14 @@
     font-family: 'helvetica_neue75_bold';
 }
 .price-offre .main-price {
-    font-size: 34px;
+    font-size: 26px;
     font-family: 'helvetica_neue75_bold';
     padding-top: 6px;
     padding-right: 3px;
 }
 .price-details {
     line-height: 1;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -102,11 +103,11 @@
     } 
     
     .offre-title {
-        font-size: 16px;
+        font-size: 15px;
     }
     
     .price-offre .main-price {
-        font-size: 28px;
+        font-size: 26px;
     }
     
     .price-details {
