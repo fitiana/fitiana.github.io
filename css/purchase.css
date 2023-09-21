@@ -96,6 +96,16 @@
     font-size: 12px;
 }
 
+
+.header-o {
+  max-width: 407px;
+  width: 100%;
+  flex: 1 1 auto;
+}
+.header-o .header-content {
+    background-color: #000;
+    color: #fff;
+}
 @media only screen and (max-width: 767px) {
    .breadcrumb-nav li a, .breadcrumb-nav li span {
   
