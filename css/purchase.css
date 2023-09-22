@@ -2,6 +2,13 @@
 * AchatForfait
 
 *******************/
+.color_primary {
+    color: #f16e00;
+}
+
+.color-primary_orange {
+    color: #ff7900;
+}
 .offre-items .offre-item {
     background-color: #000;
     color: #fff;
@@ -105,17 +112,27 @@
 .header-o .header-content {
     background-color: #000;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 20px 25px;
     width: 100%;
     height: 320px;
+    border: 2px solid #707070;
+}
+.block-title {
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
+.main-price {
+    color: #ffffff;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
 .description-o {
     width: 100%;
     margin-left: 5px;
 }
 .description-o .inner-wrap {
-    border: 2px solid #ccc;
+    border: 2px solid #B2B2B2;
      width: 100%;
 } 
 @media only screen and (max-width: 767px) {
