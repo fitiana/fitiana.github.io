@@ -1,0 +1,118 @@
+.menu_nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .nav-menus-wrapper {
+        display: block;
+        justify-content: space-between;
+    }
+}
+
+
+.navbar_wrap {
+    display: flex;
+
+    & ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+        padding-left: 0;
+        /*padding-right: 200px;*/
+
+        & li {
+            display: block;
+            position: relative;
+
+            & a {
+                font-size: 14px;
+                font-weight: normal;
+                padding: 25px 15px;
+                display: block;
+                line-height: 1;
+                position: relative;
+                z-index: 1;
+                color: #F0C380;
+                text-transform: uppercase;
+
+                &:hover {
+                    color: $color-white;
+                }
+            }
+        }
+    }
+}
+
+.navbar {
+    padding: 8px 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                font-size: 14px;
+                font-weight: 500;
+                padding: 5px 15px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                line-height: 40px;
+
+                &:hover,
+                &.active,
+                &:focus,
+                &:active {
+                    color: $color-primary;
+                    transition: all 0.3s;
+
+
+                }
+            }
+
+        }
+
+    }
+
+}
+
+.header-wrap {
+    .nav-menus-wrapper {
+        margin: 0 auto;
+    }
+}
+
+/*--- navbar sticky ---*/
+.nav-sticky {
+    &.navbar {
+        margin-top: 0px;
+        padding: 8px 0px;
+        max-width: 1300px;
+        position: fixed;
+
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    color: rgba($color-primary, 0.75);
+                    &:hover,
+                    &:active,
+                    &:focus,
+                    &.active {
+                        color: $color-primary;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// responsive
+@media (max-width: 991.98px) {
+    .navbar {
+           width: 100%;
+
+    }
+}

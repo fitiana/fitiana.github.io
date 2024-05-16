@@ -1,0 +1,112 @@
+/*----------------------------
+      Navbar & Header
+-----------------------------*/
+.header-fixed {
+    position: sticky;
+    z-index: 1101;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #A0765D;
+    
+}
+
+.header-logo {
+
+    .navbar-logo {
+        display: block;
+        padding: 8px 0;
+
+        .logo-default {
+            width: 134px;
+        }
+    }
+}
+
+.site-header-logo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header topbar */
+.header__topbar {
+    max-height: 45px;
+    background-color: #1f314f;
+
+
+}
+
+.action__btn {
+    color: $color-white !important;
+}
+
+.header__top-right {
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    margin-bottom: 20px;
+}
+
+
+/* navbar-transparent */
+
+.header-layout {
+   
+    width: 100%;
+
+    background-color: #A0765D;
+   
+}
+.menu_nav {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+
+.menu_toggle {
+
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+    .mobilemenu-toggle {
+
+        font-size: 28px;
+        padding: 0 5px;
+        color: $white;
+    }
+
+}
+
+/* Medium and large Screens */
+@media only screen and (min-width: 992px) {}
+
+
+@media (max-width: 991px) {
+    .header-logo {
+
+        .navbar-logo {
+            padding: 8px 0;
+
+            .logo-default {
+                width: 98px;
+            }
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .header {
+        .navbar-brand img {
+            max-width: 120px;
+        }
+
+        .action__btn-login span {
+            display: none;
+        }
+    }
+}
