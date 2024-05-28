@@ -1,0 +1,67 @@
+
+@charset "UTF-8";
+/*!
+ *_variables
+ */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__main__title {
+    font-size:50px;
+    font-family: Crimson Text;
+    color: #613C26;
+}
+.text-headline2 {
+    font-family: Corinthia;
+}
+
+.s-intro .s-intro__wrapper {
+    min-height: calc(100vh - 77px);
+}
+
+.half-footer .footer-container {
+    display: block;
+}
+.s-footer .s-footer__wrapper {
+    
+}
+
+.s-footer__head {
+    
+}
+.s-footer__contact-infos {
+    
+}
+
+.s-footer__legal {
+    
+}
+.text_copyright {
+    
+}
+.divider_footer {
+    
+}
+
+.centered-content {
+    
+}
+.content-cards-item {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    width: auto;
+    display: flex;
+}
+
+.title-heading {
+    color: #A0765D;
+    font-family: "Corinthia", cursive;
+    font-weight: 400;
+    font-size: 42px;
+}
